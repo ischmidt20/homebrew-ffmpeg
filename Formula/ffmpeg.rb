@@ -177,7 +177,6 @@ class Ffmpeg < Formula
       --enable-libfreetype
       --enable-frei0r
       --enable-libass
-      --enable-demuxer=dash
     ]
 
     args << "--enable-neon" if Hardware::CPU.arm?
